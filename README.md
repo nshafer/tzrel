@@ -63,3 +63,5 @@ an error and dying.
     init terminating in do_boot ({,[{Elixir.Config.Provider,boot,2,[]}]})
 
     Crash dump is being written to: erl_crash.dump...done
+
+If you comment out deps/tz/lib/tz/compiler_runner.ex lines 29-39, then `mix deps.compile tz` and repeat the steps above, the release will run successfully.
