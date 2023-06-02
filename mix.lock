@@ -1,0 +1,6 @@
+%{
+  "castore": {:hex, :castore, "1.0.2", "0c6292ecf3e3f20b7c88408f00096337c4bfd99bd46cc2fe63413ddbe45b3573", [:mix], [], "hexpm", "40b2dd2836199203df8500e4a270f10fc006cc95adc8a319e148dc3077391d96"},
+  "hpax": {:hex, :hpax, "0.1.2", "09a75600d9d8bbd064cdd741f21fc06fc1f4cf3d0fcc335e5aa19be1a7235c84", [:mix], [], "hexpm", "2c87843d5a23f5f16748ebe77969880e29809580efdaccd615cd3bed628a8c13"},
+  "mint": {:hex, :mint, "1.5.1", "8db5239e56738552d85af398798c80648db0e90f343c8469f6c6d8898944fb6f", [:mix], [{:castore, "~> 0.1.0 or ~> 1.0", [hex: :castore, repo: "hexpm", optional: true]}, {:hpax, "~> 0.1.1", [hex: :hpax, repo: "hexpm", optional: false]}], "hexpm", "4a63e1e76a7c3956abd2c72f370a0d0aecddc3976dea5c27eccbecfa5e7d5b1e"},
+  "tz": {:hex, :tz, "0.26.2", "a40e4bb223344c6fc7b74dda25df1f26b88a30db23fa6e55de843bd79148ccdb", [:mix], [{:castore, "~> 0.1 or ~> 1.0", [hex: :castore, repo: "hexpm", optional: true]}, {:mint, "~> 1.5", [hex: :mint, repo: "hexpm", optional: true]}], "hexpm", "224b0618dd1e032778a094040bc710ef9aff6e2fa8fffc2716299486f27b9e68"},
+}
